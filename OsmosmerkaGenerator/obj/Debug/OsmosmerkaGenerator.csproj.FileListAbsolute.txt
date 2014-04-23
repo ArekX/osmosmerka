@@ -1,9 +1,0 @@
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\bin\Debug\OsmosmerkaGenerator.exe.config
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\bin\Debug\OsmosmerkaGenerator.exe
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\bin\Debug\OsmosmerkaGenerator.pdb
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\bin\Debug\PdfSharp.dll
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\obj\Debug\OsmosmerkaGenerator.MainForm.resources
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\obj\Debug\OsmosmerkaGenerator.Properties.Resources.resources
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\obj\Debug\OsmosmerkaGenerator.csproj.GenerateResource.Cache
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\obj\Debug\OsmosmerkaGenerator.exe
-C:\Users\Aleksandar\Documents\Visual Studio 2013\Projects\OsmosmerkaGenerator\osmosmerka\OsmosmerkaGenerator\obj\Debug\OsmosmerkaGenerator.pdb
