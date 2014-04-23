@@ -199,6 +199,30 @@ namespace OsmosmerkaGenerator
                 for (int j = 0; j < maxLetters; j++)
                     letterMatrix[i][j] = "0";
             }
+
+            if (File.Exists(exclusionFilename))
+            {
+                StringBuilder dataString = new StringBuilder();
+                FileStream fs = new FileStream(exclusionFilename, FileMode.Open, FileAccess.Read);
+                try
+                {
+                    byte[] buffer = new byte[1048576];
+                    int readCount = fs.Read(buffer, 0, buffer.Length);
+
+                    while (readCount > 0)
+                    {
+                        dataString.Append(Encoding.UTF8.GetString(buffer, 0, readCount));
+                        readCount = fs.Read(buffer, 0, buffer.Length);
+                    }
+                }
+                finally
+                {
+                    if (fs != null)
+                        fs.Close();
+                }
+
+                exclusionList = dataString.ToString().Split('\n');
+            }
         }
 
         /// <summary>
