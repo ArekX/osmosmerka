@@ -151,7 +151,7 @@
             0,
             0});
             this.nmWidth.Minimum = new decimal(new int[] {
-            25,
+            5,
             0,
             0,
             0});
@@ -159,7 +159,7 @@
             this.nmWidth.Size = new System.Drawing.Size(64, 20);
             this.nmWidth.TabIndex = 7;
             this.nmWidth.Value = new decimal(new int[] {
-            25,
+            20,
             0,
             0,
             0});

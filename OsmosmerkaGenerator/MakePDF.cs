@@ -95,8 +95,8 @@ namespace OsmosmerkaGenerator
             int startY = 30 + fnt.Height;
 
             fnt = new XFont("Arial", (int)((page.Width - 40) / (maxLetters)), XFontStyle.Regular, new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always));
-            
-            XRect drawRect = new XRect(20, startY, page.Width, fnt.Height);
+
+            XRect drawRect = new XRect(20, startY, fnt.Height + 20, fnt.Height);
 
             double coeff = (page.Width - 40) / (maxLetters);
 
@@ -106,8 +106,8 @@ namespace OsmosmerkaGenerator
 
                 for (int j = 0; j < maxLetters; j++)
                 {
-                    drawRect.X = 20 + j * coeff;
-                    g.DrawString(wsm[i, j], fnt, XBrushes.Black, drawRect, XStringFormats.TopLeft);
+                    drawRect.X = 5 + j * coeff;
+                    g.DrawString(wsm[i, j], fnt, XBrushes.Black, drawRect, XStringFormats.Center);
                 }
             }
 
